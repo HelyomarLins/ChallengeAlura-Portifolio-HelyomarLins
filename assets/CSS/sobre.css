@@ -1,0 +1,26 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: calc(80vh - 100px);
+    padding: 1rem;
+    background-color: var( --cor-de-menu);
+}
+    .sobre__text{
+       max-width: 45%;
+       margin: 2% 5%;
+    }
+    .sobre__text h3{
+        padding-bottom: 2rem;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 37.57px;
+    }
+    .sobre__text p{
+        padding-bottom: 2rem;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 18.78px;
+    }
+ 
+     

@@ -1,0 +1,56 @@
+.formcontato{
+    height: 100vh;
+    padding: 4rem;
+    color: var(--cor-de-letras);
+    border: 1px solid red;
+}
+.formcontato__contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem, 0px, 0px, 0px;
+    gap: 1rem;
+    border: 1px solid blue;
+}
+.formcontato--esquerda{
+    border: 1px solid gainsboro;
+    width: 464px;
+    height: 539px;
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid gold;
+    height: 539px;
+            
+}
+.formcontato__text h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+.formcontato__text h3{
+    font-weight: 200;
+}
+.formcontato__form{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.formcontato__input{
+    outline: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    color: var(--cor-de-linha);
+    background-color: var(--cor-de-fundo);
+    border-bottom: 1px solid var(--cor-de-menu);
+}
+.formcontato__input::placeholder{
+    color: var(--cor-de-letras);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}

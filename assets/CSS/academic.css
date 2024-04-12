@@ -1,0 +1,51 @@
+/* Estilos para a sessão de histórico acadêmico */
+.academic {
+min-height: 80vh;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 4rem;
+   gap: 2rem;
+   background-color: var(--cor-de-menu);
+}
+.academic__title {
+    font-size: 2.5rem;
+    color: var(--cor-de-letras);
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+.academic__courses__box {
+    min-width: none;
+    padding: 2rem;
+    background-color: var(--cor-de-fundo);
+}
+
+.academic__courses__list {
+    color: var(--cor-de-letras);;
+}
+
+.academic__courses__item__img img {
+    width: 190px;
+}
+
+.academic__courses__item__title h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+
+}
+
+.academic__courses__item__subtitle p {
+    font-weight: 300;
+
+}
+    

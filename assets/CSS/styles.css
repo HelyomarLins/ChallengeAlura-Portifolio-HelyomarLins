@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+@import url(../CSS/header.css);
+@import url(../CSS/title.css);
+@import url(../CSS/skills.css);
+@import url(../CSS/sobre.css);
+@import url(../CSS/hobbies.css);
+@import url(../CSS/academic.css);
+@import url(../CSS/experience.css);
+@import url(../CSS/contact.css);
+
+
+:root {
+    --cor-de-fundo: #212437;
+    --cor-de-menu: #2a2d47;
+    --cor-de-botao: #FF4B57; 
+    --cor-de-linha: #f38260;
+    --cor-de-label: #282A41;
+    --cor-de-cards: #2B2E41;
+    --cor-de-letras: #E05E66;
+    --cor-de-backHover: #FF4B54;
+ }
+* {
+    box-sizing: border-box;
+    font-family: "Tilt Neon", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
