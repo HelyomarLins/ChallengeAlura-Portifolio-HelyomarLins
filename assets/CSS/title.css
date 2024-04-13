@@ -1,23 +1,24 @@
 .title {
-  min-height: calc(100vh - 60px);
-  border: 1px solid red;
-  padding: 1rem;
+min-height: calc(100vh - 90px);
+}
+.title__div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .title__profile {
   width: 5vw;
   height: 60vh;
   border-radius: 100%;
 }
-.title__div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
+
 .title__profile {
   width: 35%;
 }
 .title__container {
-  width: 50%;
+  width: 65%;
+
 }
 .title__container h3 {
   font-size: 3rem;
@@ -33,11 +34,17 @@
   margin-bottom: 1rem;
 }
 .title__network {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
   gap: 2rem;
 }
-.title__network__item {
+.title__network__item a{
   font-size: 1.5rem;
-  color: var(--cor-de-letras);
+  color: var(--cor-de-backHover);
+}
+.title__network__item i{
+  border: 2px solid var(--cor-de-backHover);
+  border-radius: 50%;
+  padding: 0.3rem;
+  text-align: center;
+  
 }

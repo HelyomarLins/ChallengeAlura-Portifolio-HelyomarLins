@@ -8,13 +8,11 @@
     justify-content: space-between;
     padding: 1.2rem 8%;
     background-color: var(--cor-de-menu);
-    z-index: 2;
 }
 .menu header{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    border: 1px solid greenyellow;
 }
 .menu header h3{
     color: var(--cor-de-letras);

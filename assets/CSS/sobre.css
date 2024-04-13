@@ -1,15 +1,12 @@
 .sobre{
-    min-height: calc(100vh - 60px);
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem;
+    padding: 10rem 8% 0 10rem;
     background-color: var( --cor-de-menu);
-    border: 1px solid green;
+  
 }
     .sobre__text{
-       max-width: 45%;
-       margin: 2% 5%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid red;
     }
     .sobre__text h3{
         padding-bottom: 2rem;
