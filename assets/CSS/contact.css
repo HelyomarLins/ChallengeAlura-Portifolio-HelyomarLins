@@ -2,7 +2,6 @@
     height: 100vh;
     padding: 4rem;
     color: var(--cor-de-letras);
-    border: 1px solid red;
 }
 .formcontato__contacto{
     display: flex;
@@ -10,20 +9,14 @@
     justify-content: center;
     padding: 4rem, 0px, 0px, 0px;
     gap: 1rem;
-    border: 1px solid blue;
 }
-.formcontato--esquerda{
-    border: 1px solid gainsboro;
-    width: 464px;
-    height: 539px;
+.formcontato--esquerda img{
+    width: calc(100% - 20px);    
 }
 .formcontato__text{
     display: flex;
     flex-direction: column;
     width: fit-content;
-    border: 1px solid gold;
-    height: 539px;
-            
 }
 .formcontato__text h2{
     font-size: 2rem;
@@ -33,24 +26,43 @@
 .formcontato__text h3{
     font-weight: 200;
 }
+.formcontato__subtexti {
+    margin-bottom: 2rem;
+}
 .formcontato__form{
 display: flex;
 flex-direction: column;
 gap: 1rem;
 }
-.formcontato__input{
+.formcontato__input,
+.formcontato__textarea{
     outline: none;
-    margin-top: 1rem;
     padding: 1rem;
     border: none;
     color: var(--cor-de-linha);
     background-color: var(--cor-de-fundo);
-    border-bottom: 1px solid var(--cor-de-menu);
+    border-bottom: 2px solid var(--cor-de-menu);
 }
-.formcontato__input::placeholder{
+.formcontato__input::placeholder, 
+.formcontato__textarea::placeholder{
     color: var(--cor-de-letras);
     position: absolute;
     top: 0;
     left: 0;
-
+}
+.formcontato__botao{
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-de-botao);
+    transition: 0.3s;
+}
+.formcontato__botao:hover{
+    background-color: #FF8154 ;
+    color: #ffff;
+    font-weight: 200;
 }
