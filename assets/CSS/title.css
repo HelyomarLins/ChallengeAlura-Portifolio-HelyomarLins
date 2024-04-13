@@ -1,43 +1,42 @@
-.title{
-min-height: calc(100vh - 100px);
-padding: 1rem;
+.title {
+  min-height: calc(100vh - 90px);
+  padding: 1rem;
 }
-.title__profile{
-   width: 5vw;
-    height: 60vh;
-    border-radius: 100%;
+.title__profile {
+  width: 5vw;
+  height: 60vh;
+  border-radius: 100%;
 }
-.title__div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.title__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.title__profile{
-    width: 35%;
+.title__profile {
+  width: 35%;
 }
-.title__container{
-    width: 50%;
+.title__container {
+  width: 50%;
 }
-.title__container h3{
-    font-size: 3rem;
-    letter-spacing: 0.1rem;
-    color: var(--cor-de-letras);
-    margin-bottom: 1rem;
+.title__container h3 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: var(--cor-de-letras);
+  margin-bottom: 1rem;
 }
-.title__container h2{
-    font-size: 1.3rem;
-    font-weight: 200;
-    letter-spacing: 0.2rem;
-    color: var(--cor-de-letras);
-    margin-bottom: 1rem;
+.title__container h2 {
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  color: var(--cor-de-letras);
+  margin-bottom: 1rem;
 }
-.title__network{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.title__network {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-.title__network__item{
-    font-size: 1.5rem;
-    color: var(--cor-de-letras);
-    
+.title__network__item {
+  font-size: 1.5rem;
+  color: var(--cor-de-letras);
 }
