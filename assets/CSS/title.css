@@ -1,5 +1,6 @@
 .title {
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 60px);
+  border: 1px solid red;
   padding: 1rem;
 }
 .title__profile {
