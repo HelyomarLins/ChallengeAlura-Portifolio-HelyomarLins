@@ -1,25 +1,22 @@
-.title {
+.title{
+width: 100%;
+padding: 10rem 8% 0 8%;
 min-height: calc(100vh - 90px);
 }
 .title__div {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 1rem;
 }
-.title__profile {
-  width: 5vw;
-  height: 60vh;
-  border-radius: 100%;
+.title__div img{
+  width: 60vw;
+  height: 50vh;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--cor-de-linha);
+	transition: 0.4s ease-in-out;
 }
 
-.title__profile {
-  width: 35%;
-}
-.title__container {
-  width: 65%;
-
-}
 .title__container h3 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
@@ -35,6 +32,7 @@ min-height: calc(100vh - 90px);
 }
 .title__network {
   display: inline-flex;
+  margin: ;
   gap: 2rem;
 }
 .title__network__item a{
@@ -48,3 +46,18 @@ min-height: calc(100vh - 90px);
   text-align: center;
   
 }
+box-shadow: 0 0 25px var(--main-color);
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+}
+
+.home-img img:hover{
+	box-shadow: 0 0 25px var(--main-color),
+				0 0 50px var(--main-color),
+				0 0 100px var(--main-color);
+}
+transition: 0.3s ease;
+}
+
+.logo:hover{
+	transform: scale(1.1);

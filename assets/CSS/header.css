@@ -16,20 +16,23 @@
 }
 .menu header h3{
     color: var(--cor-de-letras);
+    font-size: 1.5rem;
 }
 .menu header i{
    color: var(--cor-de-backHover);
-  font-size: 2rem;
+   font-size: 2.2rem;
 }
 .menu__list{
     display: flex;
     align-items: center;
-    gap: 2rem;
-    
+    gap: 1.5rem;
+   
 }
-.menu__list__item {
-    color: var(--cor-de-letras);
+.menu__list__item a {
     font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--cor-de-letras);
+  
 }
 .menu__list__item.active a{
     border-bottom: 3px solid var(--cor-de-linha);
