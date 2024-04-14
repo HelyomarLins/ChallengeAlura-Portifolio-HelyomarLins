@@ -1,8 +1,9 @@
 .formcontato{
-    height: 100vh;
-    padding: 4rem;
+    width: 100%;
+    min-height: calc(100vh - 20px);
+    padding: 5rem 8% 0 8%;
     color: var(--cor-de-letras);
-}
+}  
 .formcontato__contacto{
     display: flex;
     align-items: center;
