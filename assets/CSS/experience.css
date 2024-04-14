@@ -1,12 +1,15 @@
 /* Estilos para a sessão de histórico acadêmico */
 .experience {
-    min-height: 80vh;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    padding: 10rem 8% 0 8%;
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem;
-    gap: 4rem;
+
+    background-color: var(--cor-de-menu);
 }
+
 .experience__section__title {
     font-size: 2.5rem;
      color: var(--cor-de-letras);

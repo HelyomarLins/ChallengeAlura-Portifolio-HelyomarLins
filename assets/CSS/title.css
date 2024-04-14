@@ -1,7 +1,7 @@
 .title{
 width: 100%;
-padding: 10rem 8% 0 8%;
-min-height: calc(100vh - 90px);
+padding: 12rem 8% 0 8%;
+min-height: calc(100vh - 40px);
 }
 .title__div {
   width: 100%;
@@ -14,9 +14,12 @@ min-height: calc(100vh - 90px);
   height: 50vh;
   border-radius: 50%;
   box-shadow: 0 0 10px var(--cor-de-linha);
+  cursor: pointer;
 	transition: 0.4s ease-in-out;
 }
-
+.title__div img:hover{
+	box-shadow: 0 0 15px var(--cor-de-linha),	0 0 30px var(--cor-de-linha),0 0 60px var(--cor-de-linha);
+}
 .title__container h3 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
@@ -31,33 +34,26 @@ min-height: calc(100vh - 90px);
   margin-bottom: 1rem;
 }
 .title__network {
-  display: inline-flex;
-  margin: ;
-  gap: 2rem;
+ display: inline-flex;
+ align-items: center;
+ gap: 2rem;
 }
 .title__network__item a{
   font-size: 1.5rem;
   color: var(--cor-de-backHover);
+  transition: 0.3s ease-in-out;
 }
 .title__network__item i{
   border: 2px solid var(--cor-de-backHover);
   border-radius: 50%;
   padding: 0.3rem;
-  text-align: center;
-  
-}
-box-shadow: 0 0 25px var(--main-color);
-	cursor: pointer;
-	transition: 0.4s ease-in-out;
-}
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 
-.home-img img:hover{
-	box-shadow: 0 0 25px var(--main-color),
-				0 0 50px var(--main-color),
-				0 0 100px var(--main-color);
 }
-transition: 0.3s ease;
+.title__network__item i:hover{
+color: var(--cor-de-linha);
+transform: scale(1.3) translateY(-5px);
+box-shadow: 0 0 25px var(--cor-de-linha);
+border: 2px solid var(--cor-de-linha);
 }
-
-.logo:hover{
-	transform: scale(1.1);

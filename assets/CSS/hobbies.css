@@ -1,10 +1,12 @@
 .hobbies{
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 08rem 8% 0 8%;
     gap: 1.2rem;
     justify-content: center;
+    width: 100%;
     }
     .hobbies__title{
         font-size: 5rem;
@@ -24,13 +26,16 @@
     .hobbies__box{
         display: flex;
         justify-content: center;
-
     }
-    .hobbies__box ul{
+    .hobbies__box{
         width: 180px;
         height: 180px;
         background-color: var(--cor-de-menu);
-        border-radius: 50%;
+        border-radius: 20%;
+       
+    }
+    
+    .hobbies__box ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -43,11 +48,22 @@
         font-size: 5rem;
         letter-spacing: 0.2rem;
         color: var(--cor-de-linha);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
     }
     ul .hobbies__name{
         font-size: 1.2rem;
         letter-spacing: 0.2rem;
         color: var(--cor-de-letras);
-
     }
+    ul .hobbies__icon i:hover{
+        color: var(--cor-de-linha);
+        transform: scale(1.1) translateY(-5px);
+        box-shadow: 0 0 35px var(--cor-de-linha);
+        padding: 0.2rem;
+        border-radius: 50%;
+       
+    }
+    
+ 
     

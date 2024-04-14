@@ -1,5 +1,8 @@
 .skills{
-    min-height: calc(80vh - 100px);
+    width: 100%;
+    min-height: calc(100vh - 20px);
+    padding: 08rem 8% 0 8%;
+    background-color: var( --cor-de-fundo);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +16,7 @@
         color: var(--cor-de-letras);
     }
     .skills__line{
-         display: flex;
+        display: flex;
         gap: 1rem;
         padding: 2%;
         align-items: center;
@@ -36,9 +39,15 @@
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
     }
-    
+    .skills__box ul:hover{
+        color: var(--cor-de-linha);
+        transform: scale(1.1) translateY(-5px);
+        box-shadow: 0 0 25px var(--cor-de-linha);
+        border: 2px solid var(--cor-de-linha);
+    }
     ul .skills__icon i{
         font-size: 5rem;
         letter-spacing: 0.2rem;

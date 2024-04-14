@@ -1,51 +1,55 @@
 /* Estilos para a sessão de histórico acadêmico */
 .academic {
-min-height: 80vh;
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 4rem;
-   gap: 2rem;
-   background-color: var(--cor-de-menu);
+    min-height: calc(100vh - 20px);
+    padding: 5rem 8% 0 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    background-color: var(--cor-de-menu);
 }
 .academic__title {
     font-size: 2.5rem;
     color: var(--cor-de-letras);
     text-align: center;
 }
-
 .academic__courses {
     display: flex;
     align-items: center;
-    padding: 2rem;
-    gap: 1rem;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    
+    gap: 2rem;
+    width: 100%;
+    height: 70vh;
 }
 
 .academic__courses__box {
-    min-width: none;
-    padding: 2rem;
-    background-color: var(--cor-de-fundo);
+   
+  
 }
 
 .academic__courses__list {
-    color: var(--cor-de-letras);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: var(--cor-de-letras);
+    border-radius: 10%;
+    background-color: var(--cor-de-fundo);
 }
 
 .academic__courses__item__img img {
-    width: 190px;
+    width: 20vw;
 }
 
 .academic__courses__item__title h4 {
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 0.3rem;
-
 }
 
 .academic__courses__item__subtitle p {
     font-weight: 300;
-
 }
-    
