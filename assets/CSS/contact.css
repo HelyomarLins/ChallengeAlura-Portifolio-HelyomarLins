@@ -3,6 +3,7 @@
     min-height: calc(100vh - 20px);
     padding: 5rem 8% 0 8%;
     color: var(--cor-de-letras);
+    margin-bottom: 1rem;
 }  
 .formcontato__contacto{
     display: flex;
