@@ -1,26 +1,25 @@
-# Challenge ONE | Front End - Portfólio
----
+<h1 align="center">Meu Portfólio</h1>
+<p align="center"><i>Portfólio</i></p>
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
+
+##  Sobre o projeto
+
+Exemplo de um projeto de portfólio para um desafio da ONE - Formação Front-End.
+
+### Technologias
+<p display="inline-block">
+  <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5-logo"/>
+  <img width="35" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3-logo"/>
+  <img width="46" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" alt="css3-logo"/>
+</p>
+                                                                                                  
+### Ferramenta de desenvolvimento
+
+<p display="inline-block">
+  <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="photoshop-logo"/>
+  <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="vscode-logo"/>
+  <img width="32" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="figma-logo"/>
 </p>
 
-###  Primeiros Passos:
----
-#### 🔹Marque esse projeto com uma ⭐
-#### 🔹Siga as orientações do que temos neste repositório 📚
-
-
-### Analisando nosso repositório!
----
-### Este é o repositório base do nosso projeto, nele voce encontrará:
-#### 🔹index.html: Documento HTML finalizado que você pode utilizar em seu projeto. Fonte, CSS e JavaScript já linkado e todas as sessões comentadas. Sinta-se a vontade para executar o seu próprio HTML caso deseje;
-#### 🔹style.css: Documento de CSS com instruções de estilo e também algumas sugestões para seu desenvolvimento
-#### 🔹validacao.js: Documento vazio para que possa aplicar sua lógica de programação, trabalhando com a validação de formulário em JavaScript
-#### Ao clonar, ou realizar o download do projeto base, você tera essa apresentação:
-
-
-<p align="center" >
-     <img width="600" heigth="600" src="./assets/imges/">
-</p>
-
+## Link do projeto
+[Portfólio](https://marcelo-d2.github.io/Portfolio/)
