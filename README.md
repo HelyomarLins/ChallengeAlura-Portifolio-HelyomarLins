@@ -22,4 +22,4 @@ Exemplo de um projeto de portfólio para um desafio da ONE - Formação Front-En
 </p>
 
 ## Link do projeto
-[Portfólio](https://marcelo-d2.github.io/Portfolio/)
+[Portfólio](https://github.com/HelyomarLins/ChallengeAlura-Portifolio-HelyomarLins/)
